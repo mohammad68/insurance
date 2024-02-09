@@ -20,4 +20,11 @@
   .text-balance {
     text-wrap: balance;
   }
+
+  .box-shadow-hover {
+    transition: box-shadow 0.3s ease;
+    &:hover {
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    }
+  }
 }
