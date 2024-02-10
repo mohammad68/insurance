@@ -6,4 +6,8 @@ export const StyledInqueryModalContainer = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   gap: 32px;
+  .btns {
+    display: flex;
+    justify-content: space-between;
+  }
 `;

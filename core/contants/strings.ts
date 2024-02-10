@@ -25,6 +25,7 @@ export const Strings = {
   accident_insurance_discount_percentage: "در صد تخفیف حوادث راننده",
   inquiry_price: "استعلام قیمت",
   accept: "تایید",
+  ignore: "انصراف",
 };
 
 export const ValidationStrings = {

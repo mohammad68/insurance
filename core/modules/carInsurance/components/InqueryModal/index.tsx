@@ -40,7 +40,10 @@ const InqueryModal = ({ onClose }: { onClose: () => void }) => {
             value={discountThridParty?.label}
           />
         </div>
-        <Button label={Strings.accept} />
+        <div className="btns">
+          <Button label={Strings.accept} />
+          <Button label={Strings.ignore} variant="outline" onClick={onClose} />
+        </div>
       </StyledInqueryModalContainer>
     </Modal>
   );
