@@ -15,12 +15,6 @@ const RegisterForm = ({ onSubmit }: TRegisterFormProps) => {
     formState: { errors },
   } = useForm<TRegisterForm>({
     resolver: yupResolver(generateRegisterFormSchema()),
-    defaultValues: {
-      first_name: "علی",
-      last_name: "احمدی",
-      password: "1Aaaaaaaa",
-      phone_number: "09366963617",
-    },
   });
 
   return (

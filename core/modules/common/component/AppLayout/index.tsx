@@ -19,12 +19,12 @@ const AppLayout = ({ children }: AppLayoutProps) => {
           <AnimatePresence>
             <motion.div
               animate={{
-                y: [-10, 10, -10], // Array of x positions for the animation
+                y: [-10, 10, -10],
               }}
               transition={{
-                repeat: Infinity, // Repeat the animation infinitely
-                duration: 5, // Duration for each iteration of the animation
-                ease: "linear", // Linear easing for a constant speed
+                repeat: Infinity,
+                duration: 5,
+                ease: "linear",
               }}
             >
               <Image alt="greenCar" src={greenCar} />
