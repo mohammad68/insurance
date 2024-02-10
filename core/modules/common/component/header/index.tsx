@@ -4,7 +4,7 @@ import { Strings } from "@/core/contants/strings";
 import { StyledHeader } from "./styles";
 import Image from "next/image";
 import logo from "@/public/logo.svg";
-import { useUserStore } from "../../user/store/UserStore";
+import { useUserStore } from "../../../user/store/UserStore";
 import userIcon from "@/public/user.svg";
 
 const Header = () => {
