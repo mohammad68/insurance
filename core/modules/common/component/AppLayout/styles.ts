@@ -3,9 +3,12 @@ import styled from "styled-components";
 
 export const StyledAppLayout = styled.div`
   margin-top: 40px;
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   flex-direction: column;
+  height: 100vh;
   @media ${mediaQuery.md} {
+    display: flex;
     height: calc(100vh - 90px);
     margin-top: 90px;
     flex-direction: row;
@@ -40,11 +43,11 @@ export const StyledAppLayout = styled.div`
     .car-container {
       width: 66.666667%;
       padding: 8px;
-      position: absolute;
       bottom: 10px;
       left: 0;
       @media ${mediaQuery.md} {
         width: auto;
+        position: absolute;
       }
     }
   }
