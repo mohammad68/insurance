@@ -43,9 +43,6 @@ export const StyledAppLayout = styled.div`
     .car-container {
       width: 66.666667%;
       padding: 8px;
-      /* bottom: 0; */
-      /* left: 0; */
-      /* position: fixed; */
       @media ${mediaQuery.md} {
         width: auto;
         position: absolute;
