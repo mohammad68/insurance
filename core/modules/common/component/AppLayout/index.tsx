@@ -14,7 +14,6 @@ const AppLayout = ({ children }: AppLayoutProps) => {
       <div className="form-container">{children}</div>
       <div className="left-side-container">
         <div className="solid-bg" />
-
         <div className="car-container">
           <AnimatePresence>
             <motion.div
